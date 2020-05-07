@@ -1,15 +1,10 @@
 {
-  "host": "<HOST NAME>",
-  "port": "<PORT>",
-  "retentionPeriod": 3,
+  "host": "logs.papertrailapp.com",
+  "port": "41574",
   "sources": [
     {
-      "prefix": "API-Gateway-Execution-Logs_",
-      "consumer": "APIGatewayLogConsumer"
-    },
-    {
-      "prefix": "/aws/lambda/",
-      "consumer": "LambdaLogConsumer"
+      "prefix": "/ecs/jump-web/",
+      "consumer": "ECSLogConsumer"
     }
   ],
   "exclude": []

@@ -5,6 +5,10 @@
     {
       "prefix": "/ecs/jump-web/",
       "consumer": "ECSLogConsumer"
+    },
+    {
+      "prefix": "/ecs/jump-api/",
+      "consumer": "ECSLogConsumer"
     }
   ],
   "exclude": []
